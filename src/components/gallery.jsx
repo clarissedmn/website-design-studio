@@ -54,6 +54,7 @@ export default class PhotosBanner extends Component {
             className={"photos"}
             photos={PHOTO_SET}
             onClick={this.openLightbox}
+            columns={2}
           />
           <Modal
             className={"modal"}

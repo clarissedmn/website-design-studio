@@ -62,6 +62,7 @@
   text-decoration: none;
   transition: background-size 0.2s;
   --mainColor: #b80000;
+  z-index: 1;
 }
 
 .contact:hover {
