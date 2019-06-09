@@ -4,7 +4,7 @@ class Contact extends Component {
   state = { color: "black" };
 
   listenScrollEvent = e => {
-    if (window.scrollY > 143) {
+    if (window.scrollY > 169) {
       this.setState({ color: "white" });
     } else {
       this.setState({ color: "black" });
