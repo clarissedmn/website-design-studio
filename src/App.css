@@ -98,11 +98,12 @@
   z-index: -1;
   margin-top: 60px;
 }
+
 .gallery {
   background-color: black;
   height: auto;
   width: 100vw;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   z-index: -1;
 }
 
