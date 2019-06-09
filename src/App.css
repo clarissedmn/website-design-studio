@@ -42,10 +42,10 @@
   transform: rotate(90deg);
   transform-origin: top left;
   margin-left: 4rem;
-  margin-top: 38rem;
   letter-spacing: 0.4rem;
   font-size: 1em;
   position: fixed;
+  bottom: 75px;
   background: linear-gradient(
     to bottom,
     var(--mainColor) 0%,
@@ -100,8 +100,9 @@
 }
 .gallery {
   background-color: black;
-  height: 1000px;
+  height: auto;
   width: 100vw;
+  margin-bottom: 100px;
   z-index: -1;
 }
 
