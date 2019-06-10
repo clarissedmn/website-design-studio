@@ -11,7 +11,7 @@ class Banner extends Component {
           <h1 className="title">Discover Taïwan</h1>
           <p className="intro">
             Welcome to my web site ! Here is the report from an intercultural
-            workshop that take place in Taïwan in April 2019 between Taiwanese,
+            workshop that takes place in Taïwan in April 2019 between Taiwanese,
             German and French students.{" "}
             <span className="emojis"> 🇹🇼 🇩🇪 🇫🇷</span>
           </p>
