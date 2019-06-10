@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import Logo from "./components/logo";
 import Contact from "./components/contact";
 import Banner from "./components/banner";

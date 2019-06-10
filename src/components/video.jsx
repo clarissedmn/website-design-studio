@@ -1,17 +1,30 @@
 import React, { Component } from "react";
+import YouTube from 'react-youtube';
 
 export class Video extends Component {
   state = {};
 
   render() {
+    const opts = {
+      playerVars: { 
+        autoplay: 1, 
+        controls: 0,
+        modestbranding: 1,
+        showinfo: 0,
+        rel: 0,
+      }
+    };
+
     return (
       <div className="video_banner">
-        <iframe
+        <YouTube
           className="video_yt"
-          src="https://www.youtube.com/embed/bqJWBD8VmcY?&theme=dark&autohide=2&showinfo=0&autoplay=1&modestbranding=1&rel=0&controls=1"
+          videoId="bqJWBD8VmcY"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          listType="user_uploads"
+          opts={opts}
         />
       </div>
     );

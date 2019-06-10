@@ -31,6 +31,7 @@
   transition: all 0.1s ease-in-out;
   transform-origin: 50% 50%;
   font-weight: lighter;
+  cursor: pointer;
 }
 
 
@@ -59,6 +60,7 @@
   transition: background-size 0.2s;
   --mainColor: #b80000;
   z-index: 1;
+  cursor: pointer;
 }
 
 .contact:hover {
